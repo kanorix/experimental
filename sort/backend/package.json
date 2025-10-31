@@ -1,0 +1,17 @@
+{
+  "name": "sort-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "seed": "bun run src/db/seed.ts"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "better-sqlite3": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "bun-types": "latest"
+  }
+}
